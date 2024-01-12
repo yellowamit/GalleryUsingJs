@@ -16,7 +16,7 @@ images.forEach((image, index) => {
   let altText = alts[index];
 
   const newImage = document.createElement("img");
-  newImage.setAttribute("src", `/images/${image}`);
+  newImage.setAttribute("src", `images/${image}`);
   newImage.setAttribute("alt", altText);
   thumbBar.appendChild(newImage);
 
